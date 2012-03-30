@@ -1,0 +1,8 @@
+#robots.txt
+
+#sitemap
+Sitemap: sitemap.xml
+
+#allow all, everywhere
+User-agent: *
+Disallow:
