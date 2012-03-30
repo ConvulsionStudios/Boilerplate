@@ -47,21 +47,6 @@
 			return sanitizeMySQL($_GET[$var]);
 		}
 		
-	//String security - returns a encrypted string
-		function encriptString($str) {
-			$a = "w@#dfe";
-			$b = "kufbe??.";
-			$c = "gkf3lkd";
-			$d = "fmdm.".$c;
-			$e = md5($c);
-			$f = md5($d);
-			
-			$token = md5($a.$str.$b);
-			$token = sha1($e.$token.$f);
-			
-			return ($token);
-		}
-		
 	//Truncates a string to no more than the specified length breaking only at a whitespace character.  Adds ellipses
 		function truncateString($text, $length) {
 			$length = abs((int)$length);
