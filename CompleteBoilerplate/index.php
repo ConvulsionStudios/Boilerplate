@@ -14,14 +14,18 @@
 			<!-- End JavaScript checker -->
 				
 			<!-- Start jQuery -->
-				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+				<script 
+					src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+				</script>
  				<script>
  					window.jQuery || document.write('<script src="Assets/Javascript/jquery-1.7.1.min.js"><\/script>')
  				 </script>
 			<!-- End JQuery -->
 			
 			<!-- Start includes-->
-				<?php include_once "Assets\PHPScripts\lib.php"; ?>
+				<?php 
+					include_once "Assets\PHPScripts\lib.php"; 
+				?>
 				<script type="text/javascript" src="Assets\Javascript\lib.js"></script>
 			<!-- End includes-->
 				
@@ -104,29 +108,37 @@
 	        	<div class="wrapper">	        		
 					<!-- Start header-->
 						<div class="header">
-							<?php include "Assets/Includes/header.inc.php" ?>
+							<?php 
+								include "Assets/Includes/header.inc.php" 
+							?>
 						</div>
 					<!-- End header-->
 					
 					<!-- Start sidebar-->
 						<div class="sidebar">
-							<?php include "Assets/Includes/sidebar.inc.php" ?>
+							<?php 
+								include "Assets/Includes/sidebar.inc.php" 
+							?>
 						</div>
 					<!-- End sidebar-->
 					
 					<!-- Start content-->
 						<div class="content">
+							<!-- Start cromeframe -->
 								<!--[if lt IE 7]>
 									<div class=chromeFrame>
 										Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site better.
 									</div>
 								<![endif]-->
+							<!-- End cromeframe -->
 						</div>
 					<!-- End content-->
 					
 					<!-- Start footer-->
 						<div class="footer">
-							<?php include "Assets/Includes/footer.inc.php" ?>
+							<?php 
+								include "Assets/Includes/footer.inc.php" 
+							?>
 						</div>
 					<!-- End footer-->
 	        	</div> 

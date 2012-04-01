@@ -1,0 +1,37 @@
+/* TEAM */               
+	Web designer: Dom Chester                           
+	Contact: dom.chester@me.com
+	Site: 
+	Twitter: @Dom_TC                            
+	Location: Tonbridge, Kent, England                 
+	
+/* THANKS */
+	Name: Paul Irish
+	Site: www.paulirish.com/
+	
+	Name: Mike
+	Site: www.thirteentwelve.com
+	
+	Name: Eric Meyer
+	Site: www.meyerweb.com/
+	
+	Name: Richard Clark
+	Site: www.html5doctor.com/
+
+  
+/* SITE */
+	Last update: 2012/03/19
+	
+	Standards: HTML5
+			   CSS3
+			   
+	Components:
+		Name:
+		Site:
+		
+	Software:
+		Name: Eclipse
+		Site: www.eclipse.org
+		
+		Name: WAMP
+		Site: www.wampserver.com/
