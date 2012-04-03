@@ -13,3 +13,28 @@ CompleteBoilerplate - The complete boilerplate - non-minified with complete comm
 MinBoilerplate - Minified boilerplate - No comments and minified
 
 NoCommentBoilerplate - No comment boilerplate - No comments but non-minified
+
+--------------------
+Thanks
+--------------------
+	Name: Paul Irish
+	
+	Site: www.paulirish.com/
+	
+	
+	
+	Name: Mike
+	
+	Site: www.thirteentwelve.com
+	
+	
+	
+	Name: Eric Meyer
+	
+	Site: www.meyerweb.com/
+	
+	
+	
+	Name: Richard Clark
+	
+	Site: www.html5doctor.com/
