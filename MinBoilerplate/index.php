@@ -83,7 +83,7 @@
 			<div class="content">
 			<!--[if lt IE 7]>
 				<div class=chromeFrame>
-					Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site better.
+					Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site better.  <a href="#" onclick="hideItem(chromeFrame)">description</a>
 				</div>
 			<![endif]-->
 			</div>
