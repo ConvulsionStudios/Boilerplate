@@ -38,3 +38,8 @@ window.log = function(){
 		console.log( Array.prototype.slice.call(arguments) );
 	 }
 };
+
+function hideItem(divID) {
+	refID = $(divID);
+	refID.setAttribute("class", "className");
+}

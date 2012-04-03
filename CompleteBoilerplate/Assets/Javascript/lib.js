@@ -48,3 +48,9 @@
 	    		console.log( Array.prototype.slice.call(arguments) );
 	 		 }
 		};
+		
+// Function to hide a div
+	function hideItem(divID) {
+		refID = $(divID);
+		refID.setAttribute("class", "className");
+	}
