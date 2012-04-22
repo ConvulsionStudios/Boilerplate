@@ -16,7 +16,7 @@
 		</script>
 		
 		<?php 
-			include_once "Assets\PHPScripts\lib.php"; 
+			include_once "Assets\PHPScripts\lib.func.php"; 
 		?>
 			<script type="text/javascript" src="Assets\Javascript\lib.js"></script>
 		<?php
