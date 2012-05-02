@@ -39,8 +39,10 @@
 					$keywords = 'Keyword 1, keyword 2';
 					//Author MetaData
 					$author = 'Dom Chester';
-					// Current URl MetaData
+					//Current URl MetaData
 					$currentURL = getPageURL();
+					//Site root
+					$rootURL = $_SERVER['SERVER_NAME'];
 				?>
 			<!-- End variables -->
 			

@@ -25,6 +25,7 @@
 			$keywords = 'Keyword 1, keyword 2';
 			$author = 'Dom Chester';
 			$currentURL = getPageURL();
+			$rootURL = $_SERVER['SERVER_NAME'];
 		?>
 		
 		<link rel="author" href="/humans.txt" />
