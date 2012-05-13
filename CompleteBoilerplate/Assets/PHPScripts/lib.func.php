@@ -47,8 +47,8 @@
 			return sanitizeMySQL($_GET[$var]);
 		}
 	
-	//String security - returns a encrypted string
-		function encriptString($str, $key) {
+	//Returns a random string
+		function randomString($str, $key) {
 			$a = "w@#dfe";
 			$b = "kufbe??.";
 			$c = "gkf3lkd";
@@ -73,5 +73,15 @@
 			}
 			
 			return($text);
+		}
+	
+	//Encryptes a string using AES encryption with the provided key
+		function encryptString($text, $key) { 
+		    return trim(base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, $key, $text, MCRYPT_MODE_ECB, mcrypt_create_iv(mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB), MCRYPT_RAND)))); 
+		} 
+	
+	//Decryptes a string using AES encryption with the provided key
+		function decryptString($text, $key) { 
+		    return trim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, $key, base64_decode($text), MCRYPT_MODE_ECB, mcrypt_create_iv(mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB), MCRYPT_RAND))); 
 		}
 ?>
